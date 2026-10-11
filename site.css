@@ -1,6 +1,6 @@
 /* The Gearso pages: the game's own stylesheet (css/style.css, copied from html/ by `make site`) set for reading.
    Only its tokens are used here: no colour of their own. */
-html,body{height:auto;overflow:auto;user-select:text;-webkit-user-select:text}
+html,body{height:auto;overflow:visible;overscroll-behavior:auto;user-select:text;-webkit-user-select:text}
 .doc{width:min(760px,100%);margin:0 auto;padding:clamp(40px,8vh,96px) 16px 56px;line-height:1.65;font-size:clamp(17px,.6vw + 13px,21px)}
 .doc header{display:flex;align-items:center;gap:.9em;margin-bottom:.6em}
 .doc header img{width:3.6em;height:3.6em;border-radius:.75em}
